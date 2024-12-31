@@ -3,6 +3,7 @@
     "name": "vocab-app",
     "slug": "vocab-app",
     "version": "1.0.0",
+    "scheme": "vocab-app-scheme",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -22,7 +23,8 @@
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
     }
   }
 }
