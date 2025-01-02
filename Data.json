@@ -76,7 +76,12 @@
   { "Word": "Refrain", "Meaning": "avoid", "Synonym": "abstain" },
   { "Word": "Reluctant", "Meaning": "unwilling", "rate": 2 },
   { "Word": "inquisitive", "Meaning": "curious" },
-  { "Word": "presumptuous", "Meaning": "arrogant", "__EMPTY": "kAoa_XC69BM" },
+  {
+    "Word": "presumptuous",
+    "Meaning": "arrogant",
+    "VideoID": "kAoa_XC69BM",
+    "ShortID": "kAoa_XC69BM"
+  },
   {
     "Word": "venture",
     "Meaning": "project (which is difficult, new because it involve risk of failure)",
@@ -109,7 +114,8 @@
     "Word": "Mettlesome",
     "Meaning": "brave; full of spirit and courage",
     "Synonym": "intrepid",
-    "__EMPTY": "RfWQ9kh9rRo"
+    "VideoID": "RfWQ9kh9rRo",
+    "ShortID": "RfWQ9kh9rRo"
   },
   { "Word": "Feckless", "Meaning": "irresponsible", "VideoID": "ZbuU_ZCWuoM" },
   {
@@ -121,7 +127,8 @@
     "Word": "Denigrate",
     "Meaning": "criticize",
     "Synonym": "disparage",
-    "__EMPTY": "UTI7tvoBrY0"
+    "VideoID": "UTI7tvoBrY0",
+    "ShortID": "UTI7tvoBrY0"
   },
   { "Word": "Tout", "Meaning": "promote", "VideoID": "IbvmMmDRMRs" },
   { "Word": "Foolhardy", "Meaning": "risky" },
@@ -167,7 +174,7 @@
   { "Word": "Erroneous", "Meaning": "incorrectly" },
   { "Word": "Anachronistic", "Meaning": "Old-fashion" },
   { "Word": "Intractable", "Meaning": "difficult to control or influence" },
-  { "Word": "Obtuse", "Meaning": "dull;stupid" },
+  { "Word": "Obtuse", "Meaning": "dull;stupid", "VideoID": "7pW_zYU-SQU" },
   {
     "Word": "Congruent",
     "Meaning": "compatible; superimpose",
@@ -299,7 +306,8 @@
   {
     "Word": "Transcendent",
     "Meaning": "unique; superior",
-    "Synonym": "unparalleled"
+    "Synonym": "unparalleled",
+    "VideoID": "KbwZw0R9NTY"
   },
   { "Word": "Cynic", "Meaning": "pessimist(who distrusts people)" },
   { "Word": "Errant", "Meaning": "unacceptable behaviour" },
@@ -308,25 +316,42 @@
     "Meaning": "pervert(morally evil)",
     "VideoID": "aIq466mEnE4"
   },
-  { "Word": "Malevolent", "Meaning": "hostile", "Synonym": "vicious" },
+  {
+    "Word": "Malevolent",
+    "Meaning": "hostile",
+    "Synonym": "vicious",
+    "VideoID": "dfdX4mDGdXI"
+  },
   {
     "Word": "Alluring",
     "Meaning": "attractive",
     "Synonym": "seductive",
     "VideoID": "Nl-i2Rz1678"
   },
-  { "Word": "Subtle", "Meaning": "not obvious or noticeable" },
+  {
+    "Word": "Subtle",
+    "Meaning": "not obvious or noticeable",
+    "VideoID": "905OdG56k94"
+  },
   { "Word": "Fatter", "Meaning": "prevent from moving;restrict" },
   { "Word": "Literal language", "Meaning": "exact" },
   { "Word": "Figurative language", "Meaning": "more complex and metaphoric" },
-  { "Word": "Allusion", "Meaning": "indirect reference of something" },
+  {
+    "Word": "Allusion",
+    "Meaning": "indirect reference of something",
+    "VideoID": "6QjHtXwnLkI"
+  },
   { "Word": "Tussle", "Meaning": "fight; battle" },
   { "Word": "Regard", "Meaning": "someone with a feeling" },
-  { "Word": "Dwindle", "Meaning": "smaller, weaker or less in number" },
+  {
+    "Word": "Dwindle",
+    "Meaning": "smaller, weaker or less in number",
+    "VideoID": "WTzMfz7FVCI"
+  },
   { "Word": "Onset", "Meaning": "beginning of something(unpleasant)" },
   { "Word": "Pertinent", "Meaning": "relevant to a particular subject" },
-  { "Word": "Embellish", "Meaning": "decorate" },
-  { "Word": "Discernible", "Meaning": "clear" },
+  { "Word": "Embellish", "Meaning": "decorate", "VideoID": "-IB33Y2aH9E" },
+  { "Word": "Discernible", "Meaning": "clear", "VideoID": "IQNKyAqanaw" },
   { "Word": "Seek→sought", "Meaning": "find" },
   { "Word": "Dampen", "Meaning": "reduce" },
   { "Word": "Elucidate", "Meaning": "clear and easy to understand" },
@@ -334,7 +359,7 @@
     "Word": "Rekindles",
     "Meaning": "Make the unpleasant situation happen again"
   },
-  { "Word": "Substantiate", "Meaning": "support" },
+  { "Word": "Substantiate", "Meaning": "support", "VideoID": "NOmSr64FKic" },
   { "Word": "Delegate", "Meaning": "representative" },
   { "Word": "Accuse of", "Meaning": "blame" },
   {
@@ -344,17 +369,18 @@
   {
     "Word": "Lavish",
     "Meaning": "elaborate and impressive",
-    "Synonym": "magnificent"
+    "Synonym": "magnificent",
+    "VideoID": "oNK_Gzm2TdY"
   },
   { "Word": "Antipathy", "Meaning": "hostility" },
   { "Word": "Ration", "Meaning": "control" },
-  { "Word": "Stinting", "Meaning": "to stop" },
+  { "Word": "Stinting", "Meaning": "to stop", "VideoID": "_xddoAOPe1M" },
   { "Word": "Obscure", "Meaning": "unknown" },
   { "Word": "Imprecise", "Meaning": "not clear" },
-  { "Word": "Splendid", "Meaning": "excellent" },
+  { "Word": "Splendid", "Meaning": "excellent", "VideoID": "j4yC8LCEcVQ" },
   { "Word": "Cautious", "Meaning": "careful", "Synonym": "circumspect" },
   { "Word": "Enmesh", "Meaning": "to catch" },
-  { "Word": "Painstaking", "Meaning": "meticulous" },
+  { "Word": "Painstaking", "Meaning": "meticulous", "VideoID": "stMSVCwjz44" },
   { "Word": "Disinterested", "Meaning": "neutral" },
   { "Word": "fervent", "Meaning": "show strong feeling", "Synonym": "ardent" },
   { "Word": "Peril", "Meaning": "danger" },
@@ -371,12 +397,14 @@
     "Word": "Obstinate",
     "Meaning": "stubborn",
     "Synonym": "dogged;persistent",
-    "rate": 2
+    "rate": 2,
+    "VideoID": "KyOYnqcXnyg"
   },
   {
     "Word": "Naive",
     "Meaning": "innocent",
-    "Synonym": "candour; gullible;inexperience"
+    "Synonym": "candour; gullible;inexperience",
+    "VideoID": "rj28W5uVcvk"
   },
   { "Word": "Dormant", "Meaning": "sleeping; inactive", "Synonym": "latent" },
   { "Word": "Eruption", "Meaning": "explosion" },
@@ -388,13 +416,19 @@
     "Synonym": "transient; transitory",
     "rate": 2
   },
-  { "Word": "Negate", "Meaning": "make ineffective" },
+  { "Word": "Negate", "Meaning": "make ineffective", "VideoID": "sOqbJMcDiVA" },
   { "Word": "Engender", "Meaning": "produce; cause to happen" },
-  { "Word": "Propensity", "Meaning": "tendency", "Synonym": "Proclivity" },
+  {
+    "Word": "Propensity",
+    "Meaning": "tendency",
+    "Synonym": "Proclivity",
+    "VideoID": "0wKsgDtXhVw"
+  },
   {
     "Word": "Obviate",
     "Meaning": "remove(problem or need)",
-    "Synonym": "avert"
+    "Synonym": "avert",
+    "VideoID": "3LAGc9kBsAw"
   },
   { "Word": "Cant", "Meaning": "hypocritical talk" },
   { "Word": "Arcane", "Meaning": "mysterious" },
