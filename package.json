@@ -28,6 +28,7 @@
     "react-native-webview": "^13.12.5",
     "react-native-youtube": "^2.0.2",
     "react-native-youtube-iframe": "^2.3.0",
+    "xlsx": "^0.18.5",
     "zustand": "^5.0.2"
   },
   "devDependencies": {
