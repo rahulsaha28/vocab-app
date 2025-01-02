@@ -409,7 +409,10 @@
   { "Word": "Dormant", "Meaning": "sleeping; inactive", "Synonym": "latent" },
   { "Word": "Eruption", "Meaning": "explosion" },
   { "Word": "Belie", "Meaning": "contradict" },
-  { "Word": "Gauge", "Meaning": "Measure; calculate" },
+  {
+    "Word": "Gauge(v)",
+    "Meaning": "Measure; calculate; force them to pay an unfairly high price"
+  },
   {
     "Word": "Ephemeral",
     "Meaning": "Short-lived",
@@ -487,7 +490,7 @@
   },
   { "Word": "Atonement", "Meaning": "compensation" },
   { "Word": "Condone", "Meaning": "forgive", "Synonym": "pardon" },
-  { "Word": "Incorporate", "Meaning": "include" },
+  { "Word": "Incorporate", "Meaning": "include", "rate": 2 },
   { "Word": "Monotony", "Meaning": "tedium; boring" },
   { "Word": "Infer", "Meaning": "understand" },
   { "Word": "Triumph", "Meaning": "success(by lot of skill or effort)" },
@@ -554,7 +557,7 @@
     "Meaning": "done very unwilling; done quickly and carelessly"
   },
   { "Word": "Feigned", "Meaning": "not real" },
-  { "Word": "Imitative", "Meaning": "copying other’s behaviour" },
+  { "Word": "Imitative", "Meaning": "copying other’s behaviour", "rate": 2 },
   { "Word": "Intemperance", "Meaning": "lack of restraint" },
   {
     "Word": "Diffidence",
@@ -573,7 +576,12 @@
     "Meaning": "compensate for the fault",
     "Synonym": "vindicate"
   },
-  { "Word": "Undermine", "Meaning": "erode", "Synonym": "sabotage;vandalize" },
+  {
+    "Word": "Undermine",
+    "Meaning": "erode",
+    "Synonym": "sabotage;vandalize",
+    "rate": 2
+  },
   { "Word": "Tedious", "Meaning": "boring" },
   { "Word": "Anomalous", "Meaning": "abnormal; exceptional" },
   { "Word": "Enduring", "Meaning": "lasting over a period of time" },
@@ -600,7 +608,7 @@
   { "Word": "Ferocity", "Meaning": "violence" },
   { "Word": "Immense", "Meaning": "huge" },
   { "Word": "Adversity", "Meaning": "difficult" },
-  { "Word": "Ameliorate", "Meaning": "improve" },
+  { "Word": "Ameliorate", "Meaning": "improve", "rate": 2 },
   { "Word": "Legitimize", "Meaning": "validate" },
   { "Word": "Embody", "Meaning": "include" },
   { "Word": "Mundane", "Meaning": "tedious; boring" },
@@ -647,5 +655,63 @@
   },
   { "Word": "Preface", "Meaning": "prelude" },
   { "Word": "Albeit", "Meaning": "though" },
-  { "Word": "Indignation", "Meaning": "anger", "Synonym": "resentment" }
+  { "Word": "Indignation", "Meaning": "anger", "Synonym": "resentment" },
+  { "Word": "Definitive", "Meaning": "final" },
+  { "Word": "Repudiate", "Meaning": "reject" },
+  { "Word": "Abandon", "Meaning": "give up completely" },
+  { "Word": "Precedes", "Meaning": "former" },
+  { "Word": "Anticipate", "Meaning": "expect or predict", "rate": 2 },
+  { "Word": "Incentive", "Meaning": "a thing that motivates or encourages" },
+  {
+    "Word": "Distort",
+    "Meaning": "twist out of shape; represent an idea in a untrue way"
+  },
+  { "Word": "Maverick", "Meaning": "unorthodox or independent minded person" },
+  {
+    "Word": "Articulate",
+    "Meaning": "having or showing the ability to speak fluently",
+    "Synonym": "eloquent"
+  },
+  { "Word": "Medieval", "Meaning": "middle age" },
+  { "Word": "Bequest", "Meaning": "inheritance" },
+  { "Word": "Scarce", "Meaning": "in short supply" },
+  { "Word": "Customary", "Meaning": "traditional; usual" },
+  { "Word": "Spurious", "Meaning": "false or fake" },
+  { "Word": "Blaze", "Meaning": "burn" },
+  { "Word": "Assail", "Meaning": "attack", "Synonym": "assault" },
+  { "Word": "Abate", "Meaning": "reduce or remove", "Synonym": "subside" },
+  { "Word": "Berate", "Meaning": "rebuke", "Synonym": "reprimand" },
+  { "Word": "Torment", "Meaning": "physical or mental suffering" },
+  { "Word": "Subside", "Meaning": "abate" },
+  { "Word": "Entrench", "Meaning": "firmly establish" },
+  { "Word": "Perpetrate", "Meaning": "commit or do(a harmful)" },
+  { "Word": "Sanction", "Meaning": "punishment" },
+  { "Word": "Notion", "Meaning": "belief" },
+  { "Word": "Oblivious", "Meaning": "not aware of" },
+  {
+    "Word": "Perceptual",
+    "Meaning": "people interpret and understand what they see"
+  },
+  { "Word": "Plunder", "Meaning": "rob;loot", "Synonym": "pillage" },
+  { "Word": "Appetite", "Meaning": "hunger" },
+  { "Word": "Chivalrous", "Meaning": "brave" },
+  { "Word": "Quirky", "Meaning": "unusual", "Synonym": "eccentric;" },
+  { "Word": "Magnanimous", "Meaning": "generous" },
+  { "Word": "Turmoil", "Meaning": "state of great disturbance" },
+  {
+    "Word": "Frantic",
+    "Meaning": "behaving in a wild and uncontrolled way(because you are frighten or worried)"
+  },
+  { "Word": "Utopian", "Meaning": "perfect(because the idea is unrealistic)" },
+  { "Word": "Deteriorate", "Meaning": "worsen", "Synonym": "decline" },
+  { "Word": "Placid", "Meaning": "clam" },
+  { "Word": "Enervate", "Meaning": "weaken(energy,enthusiasm)" },
+  { "Word": "Laughable", "Meaning": "ridiculous" },
+  { "Word": "Irresolute", "Meaning": "doubtful;dubious;sceptical;weak" },
+  {
+    "Word": "Platitudinous",
+    "Meaning": "overused;banal",
+    "Synonym": "hackneyed"
+  },
+  { "Word": "Labyrinthine", "Meaning": "complex", "Synonym": "intricate" }
 ]
