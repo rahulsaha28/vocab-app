@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { ActivityIndicator, StyleSheet, View } from "react-native";
-
-import YoutubeIframe from "react-native-youtube-iframe";
+import WebView from "react-native-webview";
 
 const Player = ({ videoID }) => {
   const [loading, setLoading] = useState(true);
+  const url = `https://www.youtube.com/embed/${videoID}?showinfo=0&cc_load_policy=1&cc_lang_pref=en&rel=0&autohide=1`;
   return (
     <View
       style={{
@@ -14,19 +14,17 @@ const Player = ({ videoID }) => {
       }}
     >
       {loading && <ActivityIndicator size="large" color="tomato" />}
-      <YoutubeIframe
-        height={400}
+      <WebView
+        height={300}
         width={370}
-        videoId={videoID}
-        onChangeState={(state) => {
-          if (state === "playing" || state === "paused" || state === "ended") {
-            setLoading(false);
-          }
+        onLoadEnd={() => setLoading(false)}
+        style={[styles.playerStyle]}
+        source={{
+          uri: url,
         }}
-        onReady={() => {
-          setLoading(false);
-        }}
+        textZoom={80}
         onPlaybackQualityChange={() => "hd720"}
+        showSubtitles={true}
       />
     </View>
   );
@@ -36,7 +34,6 @@ export default Player;
 
 const styles = StyleSheet.create({
   playerStyle: {
-    width: 350,
-    borderRadius: 20,
+    overflow: "hidden",
   },
 });
