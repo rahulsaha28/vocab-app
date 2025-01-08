@@ -1,5 +1,6 @@
 import axios from "axios";
 import { create } from "zustand";
+import DataTemp from "../Data.json";
 import { GRE_VOCAB_API } from "../utils/API";
 import { convertXLSXtoJSON } from "../utils/Helper";
 
@@ -14,7 +15,7 @@ export const useVocabStore = create((set) => ({
       responseType: "arraybuffer",
     });
 
-    const Data = convertXLSXtoJSON(res);
+    const Data = convertXLSXtoJSON(res) || DataTemp;
 
     set((state) => {
       let preLen = state.vocabStore.length;

@@ -23,7 +23,12 @@
   { "Word": "Exhaust", "Meaning": "Make someone tired" },
   { "Word": "Counterproductive", "Meaning": "opposite of productive" },
   { "Word": "Ascertain", "Meaning": "discover" },
-  { "Word": "exacerbate", "Meaning": "make a problem worse", "rate": 2 },
+  {
+    "Word": "exacerbate",
+    "Meaning": "make a problem worse",
+    "rate": 3,
+    "VideoID": "O9u0cSGXIhY"
+  },
   { "Word": "Incredible", "Meaning": "great" },
   { "Word": "Marvelous", "Meaning": "excellent" },
   { "Word": "Draftsmanship", "Meaning": "draw something well" },
@@ -80,7 +85,7 @@
     "Word": "presumptuous",
     "Meaning": "arrogant",
     "VideoID": "kAoa_XC69BM",
-    "ShortID": "kAoa_XC69BM"
+    "Sentence": "kAoa_XC69BM"
   },
   {
     "Word": "venture",
@@ -90,7 +95,8 @@
   {
     "Word": "censure",
     "Meaning": "strongly disapproval; critisize",
-    "rate": 2
+    "Synonym": "condemn",
+    "rate": 3
   },
   { "Word": "obscurity", "Meaning": "unimportance or enigma" },
   { "Word": "Relegate", "Meaning": "to move to a position of less authority" },
@@ -115,7 +121,7 @@
     "Meaning": "brave; full of spirit and courage",
     "Synonym": "intrepid",
     "VideoID": "RfWQ9kh9rRo",
-    "ShortID": "RfWQ9kh9rRo"
+    "Sentence": "RfWQ9kh9rRo"
   },
   { "Word": "Feckless", "Meaning": "irresponsible", "VideoID": "ZbuU_ZCWuoM" },
   {
@@ -128,7 +134,7 @@
     "Meaning": "criticize",
     "Synonym": "disparage",
     "VideoID": "UTI7tvoBrY0",
-    "ShortID": "UTI7tvoBrY0"
+    "Sentence": "UTI7tvoBrY0"
   },
   { "Word": "Tout", "Meaning": "promote", "VideoID": "IbvmMmDRMRs" },
   { "Word": "Foolhardy", "Meaning": "risky" },
@@ -208,7 +214,8 @@
   { "Word": "Resentment", "Meaning": "bitterness; ill filling" },
   {
     "Word": "Apprehension",
-    "Meaning": "worry; feeling of fear; something bad or unpleasant will happen"
+    "Meaning": "worry; feeling of fear; something bad or unpleasant will happen",
+    "rate": 2
   },
   { "Word": "Seafloor", "Meaning": "ground at the bottom of the ocean" },
   { "Word": "Devastate", "Meaning": "destroy" },
@@ -288,7 +295,12 @@
   { "Word": "Avert", "Meaning": "prevent", "VideoID": "wMcNClt08dM" },
   { "Word": "Bitter", "Meaning": "hard" },
   { "Word": "Mask", "Meaning": "conceal(prevent people from noticing)" },
-  { "Word": "Contravene", "Meaning": "violate", "VideoID": "MJcwrUUYf_g" },
+  {
+    "Word": "Contravene",
+    "Meaning": "violate;break",
+    "rate": 3,
+    "VideoID": "MJcwrUUYf_g"
+  },
   { "Word": "Comply with", "Meaning": "obey" },
   { "Word": "Aptitude", "Meaning": "talent" },
   {
@@ -382,7 +394,12 @@
   { "Word": "Enmesh", "Meaning": "to catch" },
   { "Word": "Painstaking", "Meaning": "meticulous", "VideoID": "stMSVCwjz44" },
   { "Word": "Disinterested", "Meaning": "neutral" },
-  { "Word": "fervent", "Meaning": "show strong feeling", "Synonym": "ardent" },
+  {
+    "Word": "fervent",
+    "Meaning": "show strong feeling",
+    "Synonym": "ardent",
+    "VideoID": "V-itf9Ymyfk"
+  },
   { "Word": "Peril", "Meaning": "danger" },
   { "Word": "Apt", "Meaning": "suitable" },
   { "Word": "Adolescent", "Meaning": "teenage" },
@@ -433,82 +450,220 @@
     "Synonym": "avert",
     "VideoID": "3LAGc9kBsAw"
   },
-  { "Word": "Cant", "Meaning": "hypocritical talk" },
-  { "Word": "Arcane", "Meaning": "mysterious" },
-  { "Word": "Intuitive", "Meaning": "spontaneous" },
-  { "Word": "Sail(v)", "Meaning": "move smoothly(person or thing)" },
-  { "Word": "Pitfall", "Meaning": "difficulty;danger", "Synonym": "peril" },
+  {
+    "Word": "Cant",
+    "Meaning": "hypocritical talk",
+    "Sentence": "I think the people are sick of hypocrisy and cant from their leaders; if they’d stop canting about ‘honest work’ they might get somewhere"
+  },
+  {
+    "Word": "Arcane",
+    "Meaning": "mysterious",
+    "VideoID": "ydRgqhquo8o",
+    "Sentence": "An arcane scientific puzzle;An arcane ritual;a theory filled with arcane details"
+  },
+  {
+    "Word": "Intuitive",
+    "Meaning": "known or understand without any proof",
+    "Synonym": "instinctive",
+    "VideoID": "bLxdpxVd-lk",
+    "Sentence": "she has an intuitive understanding of the business"
+  },
+  {
+    "Word": "Sail(v)",
+    "Meaning": "move smoothly(person or thing)",
+    "Sentence": "he sailed into the room;she sailed through the exam/course"
+  },
+  {
+    "Word": "Pitfall",
+    "Meaning": "difficulty;danger(that is hidden or not obvious at first)",
+    "Synonym": "peril",
+    "Sentence": "I warned him about the pitfall of the online dating;his career is in peril;the species is in peril"
+  },
   { "Word": "Nightmare", "Meaning": "bad dream" },
-  { "Word": "Delight", "Meaning": "pleasure" },
-  { "Word": "Precedence", "Meaning": "lead" },
-  { "Word": "Dilemma", "Meaning": "problem" },
+  {
+    "Word": "Delight",
+    "Meaning": "pleasure",
+    "VideoID": "0L8Nf4ewyL0",
+    "Sentence": "We watch the fireworks with delight;the trip was a delight;the stories will delight readers of all ages"
+  },
+  {
+    "Word": "Precedence",
+    "Meaning": "lead",
+    "Sentence": "Many small businesses complain that the government’s polices give precedence to large corporations"
+  },
+  {
+    "Word": "Dilemma",
+    "Meaning": "problem",
+    "Sentence": "We are facing a terrible dilemma"
+  },
   { "Word": "Bask in", "Meaning": "to take pleasure" },
   {
     "Word": "Gloat over",
     "Meaning": "to feel or express great pleasure or satisfaction"
   },
-  { "Word": "Shrug off", "Meaning": "dismiss" },
-  { "Word": "Exorbitant", "Meaning": "extremely high" },
-  { "Word": "Impede", "Meaning": "hinder" },
-  { "Word": "Incipient", "Meaning": "beginning to happen or develop" },
-  { "Word": "Rift", "Meaning": "split" },
-  { "Word": "Adamant", "Meaning": "determined; fixed" },
-  { "Word": "Assertion", "Meaning": "declaration" },
-  { "Word": "Acquaintance", "Meaning": "contact" },
-  { "Word": "Foreknowledge", "Meaning": "prior knowledge; previous knowledge" },
-  { "Word": "Prudence", "Meaning": "good judgement;wisdom", "rate": 2 },
+  {
+    "Word": "Shrug off",
+    "Meaning": "dismiss; reject",
+    "VideoID": "iHpHdWkNp6E",
+    "Sentence": "The managing director shrugged off the criticism"
+  },
+  {
+    "Word": "Exorbitant",
+    "Meaning": "extremely high",
+    "VideoID": "YiMea1R8D8E",
+    "Sentence": "exorbitant fees/costs/expenses;they were charged exorbitant rates for phone calls"
+  },
+  {
+    "Word": "Impede",
+    "Meaning": "hinder",
+    "Sentence": "he claims that the economic growth is being impeded by government regulation"
+  },
+  {
+    "Word": "Incipient",
+    "Meaning": "beginning to happen or develop",
+    "VideoID": "vnjWa1mIUbw",
+    "Sentence": "an incipient romance;the project is still in its incipient stages"
+  },
+  {
+    "Word": "Rift",
+    "Meaning": "split",
+    "Sentence": "The fight will only widen the rift with his brother"
+  },
+  {
+    "Word": "Adamant",
+    "Meaning": "determined; fixed",
+    "Sentence": "She is an adamant defender of women’s rights"
+  },
+  {
+    "Word": "Assertion",
+    "Meaning": "declaration",
+    "rate": 2,
+    "Sentence": "“Poverty is the city’s most serious problem” the authors assert;Despite the evidence against him, he has continued to assert his innocence"
+  },
+  {
+    "Word": "Acquaintance",
+    "Meaning": "someone who is known but not close friend",
+    "Sentence": "She ran into an old acquaintance at the grocery store"
+  },
+  {
+    "Word": "Foreknowledge",
+    "Meaning": "prior knowledge; previous knowledge",
+    "Sentence": "He denied any foreknowledge of the crime"
+  },
+  {
+    "Word": "Prudence",
+    "Meaning": "good judgement;wisdom",
+    "rate": 2,
+    "VideoID": "AT_nU-S52SY",
+    "Sentence": "He always exercises prudence with his finances"
+  },
   {
     "Word": "Exonerate",
     "Meaning": "absolve from blame;relieve",
-    "Synonym": "pardon"
+    "Synonym": "pardon",
+    "Sentence": "Evidence that will exonerate her from the charges;A review of the evidence led to her complete exoneration"
   },
-  { "Word": "Forestall", "Meaning": "prevent by taking advance action" },
+  {
+    "Word": "Forestall",
+    "Meaning": "prevent by taking advance action",
+    "Sentence": "Negotiations failed to forestall the conflict;he forestalled critics by offering  a defense of the project"
+  },
   { "Word": "Rift", "Meaning": "break apart" },
   {
     "Word": "Entitle",
-    "Meaning": "you have the right to have it or do it or believing oneself to be inherently deserving"
+    "Meaning": "you have the right to have it or do it or believing oneself to be inherently deserving",
+    "VideoID": "1Va6LilsAXs",
+    "Sentence": "The card entitles us to a discount"
   },
-  { "Word": "Strive", "Meaning": "make great efforts to achieve" },
+  {
+    "Word": "Strive",
+    "Meaning": "make great efforts to achieve",
+    "Sentence": "We must all strive to do better;they strove for success"
+  },
   {
     "Word": "Subtle",
-    "Meaning": "not immediately noticeable; the truth is subtly different"
+    "Meaning": "not immediately noticeable; the truth is subtly different",
+    "VideoID": "905OdG56k94",
+    "Sentence": "A subtle difference in meaning between the words;he didn’t seem to understand my subtle hints"
   },
-  { "Word": "Obligation", "Meaning": "duty" },
-  { "Word": "Conscience", "Meaning": "sense of right" },
-  { "Word": "Chastisement", "Meaning": "severe criticism or punishment" },
+  {
+    "Word": "Obligation",
+    "Meaning": "duty",
+    "Sentence": "The firm must fulfill its obligations under the contract"
+  },
+  {
+    "Word": "Conscience",
+    "Meaning": "sense of right",
+    "Sentence": "He doesn’t seem to have a conscience; her conscience was bothering her,so she finally told the truth"
+  },
+  {
+    "Word": "Chastisement",
+    "Meaning": "severe criticism or punishment",
+    "Sentence": "The waiter was chastised for forgetting the customer’s order"
+  },
   {
     "Word": "Eloquence",
-    "Meaning": "fluent speaking or writing",
-    "Synonym": "grandiloquence"
+    "Meaning": "fluent speaking or writing;clearly showing feeling",
+    "Synonym": "grandiloquence",
+    "VideoID": "CJ8Je3_LWvg",
+    "Sentence": "His success serves as an eloquent reminder of the value of the hard work"
   },
-  { "Word": "Reproach", "Meaning": "reproof" },
-  { "Word": "Prompt", "Meaning": "rapid", "Synonym": "swift" },
-  { "Word": "Allure", "Meaning": "attractive" },
+  {
+    "Word": "Reproach",
+    "Meaning": "reproof",
+    "Sentence": "She looked at him with reproach;his action were above reproach;the fear of reproof prevented them from complaining"
+  },
+  {
+    "Word": "Prompt",
+    "Meaning": "to be the cause of something",
+    "Synonym": "swift",
+    "Sentence": "Curiosity prompted her to ask a few question;the evidence prompted a criminal investigation"
+  },
+  {
+    "Word": "Allure",
+    "Meaning": "attractive",
+    "Sentence": "These rare books hold special allure for collectors"
+  },
   {
     "Word": "Qualm",
-    "Meaning": "feeling of doubt or worry(one’s own conduct or misgiving)"
+    "Meaning": "feeling of doubt or worry(one’s own conduct or misgiving)",
+    "VideoID": "ot0NgLGeupk"
   },
-  { "Word": "Atonement", "Meaning": "compensation" },
+  { "Word": "Atonement", "Meaning": "compensation", "VideoID": "9S9LQWJwwH4" },
   { "Word": "Condone", "Meaning": "forgive", "Synonym": "pardon" },
-  { "Word": "Incorporate", "Meaning": "include", "rate": 2 },
+  {
+    "Word": "Incorporate",
+    "Meaning": "include",
+    "rate": 2,
+    "VideoID": "X4-td2k2Amg"
+  },
   { "Word": "Monotony", "Meaning": "tedium; boring" },
   { "Word": "Infer", "Meaning": "understand" },
-  { "Word": "Triumph", "Meaning": "success(by lot of skill or effort)" },
-  { "Word": "Perpetual", "Meaning": "everlasting" },
+  {
+    "Word": "Triumph",
+    "Meaning": "success(by lot of skill or effort)",
+    "VideoID": "rfEcy3mT200"
+  },
+  { "Word": "Perpetual", "Meaning": "everlasting", "VideoID": "MGp1DuYOIZI" },
   { "Word": "Tentative", "Meaning": "provisional; preliminary", "rate": 3 },
   { "Word": "Fate", "Meaning": "destiny" },
   {
     "Word": "Savor",
-    "Meaning": "savor an experience, you enjoy it as much as you can;like"
+    "Meaning": "savor an experience, you enjoy it as much as you can;like",
+    "VideoID": "u0z7xa6TzYs"
   },
   {
     "Word": "Heterodox",
     "Meaning": "unorthodox(idea are different from the official one)"
   },
-  { "Word": "Descry", "Meaning": "to see, notice" },
+  { "Word": "Descry", "Meaning": "to see, notice", "VideoID": "7VADCXnXdkE" },
   { "Word": "Inure", "Meaning": "accustom to (something unpleasant)" },
   { "Word": "Reluctant", "Meaning": "unwilling; disinclined" },
-  { "Word": "Mediocrity", "Meaning": "common or average quality" },
+  {
+    "Word": "Mediocrity",
+    "Meaning": "common or average quality",
+    "VideoID": "0yZ209qJx84"
+  },
   { "Word": "Extrapolate", "Meaning": "extend by inferring unknown value" },
   { "Word": "Former", "Meaning": "previous time" },
   { "Word": "Debase", "Meaning": "reduce it value or quantity" },
@@ -516,9 +671,10 @@
   {
     "Word": "Forfeit",
     "Meaning": "lose something; give up",
-    "Synonym": "relinquish"
+    "Synonym": "relinquish",
+    "VideoID": "PT_e5JiNgW0"
   },
-  { "Word": "Perennial", "Meaning": "permanent" },
+  { "Word": "Perennial", "Meaning": "permanent", "VideoID": "4f-q-x9tG2w" },
   {
     "Word": "Organism",
     "Meaning": "animal or plant specially that is so small to see"
@@ -531,8 +687,8 @@
     "Synonym": "dissident;apostate;heterodox"
   },
   { "Word": "to...that ...to..that" },
-  { "Word": "Seize", "Meaning": "take;grab" },
-  { "Word": "Supplanted", "Meaning": "replace" },
+  { "Word": "Seize", "Meaning": "take;grab", "VideoID": "AcmK1HETG1g" },
+  { "Word": "Supplanted", "Meaning": "replace", "VideoID": "7UkZXmvQa7k" },
   { "Word": "Culminate", "Meaning": "end" },
   { "Word": "Sabotage", "Meaning": "destroy" },
   { "Word": "Preeminent", "Meaning": "greatest", "Synonym": "eminent" },
@@ -541,30 +697,47 @@
   { "Word": "Introspection", "Meaning": "Self-analysis" },
   { "Word": "Boredom", "Meaning": "the state of filling bore" },
   { "Word": "Indolence", "Meaning": "inactivity" },
-  { "Word": "Iniquitous", "Meaning": "unfair and morally wrong" },
+  {
+    "Word": "Iniquitous",
+    "Meaning": "unfair and morally wrong",
+    "VideoID": "0b4MFxwt5d4"
+  },
   { "Word": "Impiety", "Meaning": "Lack of piety or reverence" },
   { "Word": "Reverence", "Meaning": "great respect or admiration" },
   { "Word": "Wicked", "Meaning": "evil; immoral" },
   { "Word": "Unpalatable", "Meaning": "unpleasant;disagreeable" },
-  { "Word": "Conspicuous", "Meaning": "clearly visible" },
+  {
+    "Word": "Conspicuous",
+    "Meaning": "clearly visible",
+    "VideoID": "lYsY7qOtH-M"
+  },
   { "Word": "Hoard", "Meaning": "store" },
   { "Word": "Trample", "Meaning": "destroy(value or right)" },
-  { "Word": "Retain", "Meaning": "keep; hold on", "rate": 2 },
+  { "Word": "Retain", "Meaning": "keep; hold on", "rate": 3 },
   { "Word": "Allege", "Meaning": "claim; proclaim" },
   { "Word": "Redundant", "Meaning": "superfluous" },
   {
     "Word": "Perfunctory",
-    "Meaning": "done very unwilling; done quickly and carelessly"
+    "Meaning": "done very unwilling; done quickly and carelessly",
+    "VideoID": "MvUTd-KhgZY"
   },
   { "Word": "Feigned", "Meaning": "not real" },
   { "Word": "Imitative", "Meaning": "copying other’s behaviour", "rate": 2 },
-  { "Word": "Intemperance", "Meaning": "lack of restraint" },
+  {
+    "Word": "Intemperance",
+    "Meaning": "lack of restraint",
+    "VideoID": "hjEE-DVFjOw"
+  },
   {
     "Word": "Diffidence",
     "Meaning": "lack of confidence; shyness; self-doubt"
   },
-  { "Word": "Acute", "Meaning": "dangerous;critical" },
-  { "Word": "Refractory", "Meaning": "stubborn" },
+  {
+    "Word": "Acute",
+    "Meaning": "dangerous;critical",
+    "VideoID": "_smu4GH8OyY"
+  },
+  { "Word": "Refractory", "Meaning": "stubborn", "VideoID": "RWG4jF2YoZI" },
   { "Word": "Consequently", "Meaning": "as a result" },
   {
     "Word": "Ramification",
@@ -574,144 +747,435 @@
   {
     "Word": "Redeem",
     "Meaning": "compensate for the fault",
-    "Synonym": "vindicate"
+    "VideoID": "5faBXKzRZNM"
   },
+  { "Word": "Vindicate", "Meaning": "proof", "VideoID": "eXX2P66tAYM" },
   {
     "Word": "Undermine",
     "Meaning": "erode",
     "Synonym": "sabotage;vandalize",
-    "rate": 2
+    "rate": 2,
+    "VideoID": "F2pSKlzyrO8"
   },
   { "Word": "Tedious", "Meaning": "boring" },
   { "Word": "Anomalous", "Meaning": "abnormal; exceptional" },
   { "Word": "Enduring", "Meaning": "lasting over a period of time" },
   {
     "Word": "Preempt",
-    "Meaning": "prevent an activity from happening(by doing something that make it impossible)"
+    "Meaning": "prevent an activity from happening(by doing something that make it impossible)",
+    "VideoID": "cK7F4-18dog"
   },
-  { "Word": "Endorsement", "Meaning": "approval;support", "rate": 2 },
-  { "Word": "Oppressive", "Meaning": "harsh" },
+  {
+    "Word": "Endorsement",
+    "Meaning": "approval;support",
+    "rate": 2,
+    "VideoID": "O90wWT4rDA4"
+  },
+  { "Word": "Oppressive", "Meaning": "harsh", "VideoID": "u13AvBzb2P4" },
   { "Word": "Restitution", "Meaning": "compensation; refund" },
-  { "Word": "Speculation", "Meaning": "guess", "Synonym": "conjecture" },
+  {
+    "Word": "Speculation",
+    "Meaning": "guess",
+    "Synonym": "conjecture",
+    "VideoID": "j8SdspVG1kg"
+  },
   { "Word": "Inexhaustible", "Meaning": "unlimited" },
   { "Word": "Surrogate", "Meaning": "substitute;proxy" },
-  { "Word": "Inimical", "Meaning": "harmful; injurious;deleterious" },
-  { "Word": "Conducive", "Meaning": "helpful" },
+  {
+    "Word": "Inimical",
+    "Meaning": "harmful; injurious;deleterious",
+    "VideoID": "mPIHZIGgj-E"
+  },
+  { "Word": "Conducive", "Meaning": "helpful", "VideoID": "sKIJUrOm76c" },
   { "Word": "Skeptical", "Meaning": "doubtful;dubious;sceptical" },
-  { "Word": "Eclectic", "Meaning": "wide; broad", "rate": 2 },
+  {
+    "Word": "Eclectic",
+    "Meaning": "wide; broad",
+    "rate": 2,
+    "VideoID": "t5TMxS5SrTo"
+  },
   { "Word": "Doctrinaire", "Meaning": "rigid, adamant" },
   { "Word": "Censor", "Meaning": "Editor" },
-  { "Word": "Disciple", "Meaning": "follower" },
+  { "Word": "Disciple", "Meaning": "follower", "VideoID": "NMgA7q0WgNc" },
   { "Word": "Revitalize", "Meaning": "Re-energize" },
-  { "Word": "Idiosyncratic", "Meaning": "individual", "rate": 2 },
-  { "Word": "Formidable", "Meaning": "alarming;intimidating" },
-  { "Word": "Ferocity", "Meaning": "violence" },
+  {
+    "Word": "Idiosyncratic",
+    "Meaning": "individual",
+    "rate": 3,
+    "VideoID": "ndkDz3kG-kE"
+  },
+  {
+    "Word": "Formidable",
+    "Meaning": "alarming;intimidating",
+    "VideoID": "m98HfFfFWTI"
+  },
+  { "Word": "Ferocity", "Meaning": "violence", "VideoID": "6QuekCVfLSs" },
   { "Word": "Immense", "Meaning": "huge" },
   { "Word": "Adversity", "Meaning": "difficult" },
   { "Word": "Ameliorate", "Meaning": "improve", "rate": 2 },
-  { "Word": "Legitimize", "Meaning": "validate" },
+  { "Word": "Legitimize", "Meaning": "validate", "VideoID": "X5o4PpbkNTk" },
   { "Word": "Embody", "Meaning": "include" },
   { "Word": "Mundane", "Meaning": "tedious; boring" },
-  { "Word": "Decried/Decry", "Meaning": "blame; condemn; abuse;criticize" },
-  { "Word": "Plausible", "Meaning": "believable" },
+  {
+    "Word": "Decried/Decry",
+    "Meaning": "blame; condemn; abuse;criticize",
+    "Synonym": "censure",
+    "rate": 3,
+    "VideoID": "7VADCXnXdkE"
+  },
+  { "Word": "Plausible", "Meaning": "believable", "VideoID": "TnxozBG_MbY" },
   { "Word": "Circumspect", "Meaning": "careful" },
-  { "Word": "Obsequious", "Meaning": "servile;oily" },
-  { "Word": "Nonplussed", "Meaning": "confused" },
-  { "Word": "Deferential", "Meaning": "showing respect" },
-  { "Word": "Intransigent", "Meaning": "unwilling to compromise" },
+  { "Word": "Obsequious", "Meaning": "servile;oily", "VideoID": "Vn4u8mw3zVA" },
+  { "Word": "Nonplussed", "Meaning": "confused", "VideoID": "ZOTLYGWoEYo" },
+  {
+    "Word": "Deferential",
+    "Meaning": "showing respect",
+    "VideoID": "bEkCA64EYUQ"
+  },
+  {
+    "Word": "Intransigent",
+    "Meaning": "unwilling to compromise",
+    "VideoID": "TXyNWj5sfBw"
+  },
   { "Word": "Recourse", "Meaning": "alternative" },
-  { "Word": "Instinctive", "Meaning": "natural", "Synonym": "intuitive" },
+  {
+    "Word": "Instinctive",
+    "Meaning": "natural",
+    "Synonym": "intuitive",
+    "VideoID": "jfINmVgivlw"
+  },
   { "Word": "Fatuous", "Meaning": "stupid" },
-  { "Word": "Candid", "Meaning": "honest; frank" },
-  { "Word": "Rancorous", "Meaning": "malicious; acrimonious" },
+  { "Word": "Candid", "Meaning": "honest; frank", "VideoID": "rj28W5uVcvk" },
+  {
+    "Word": "Rancorous",
+    "Meaning": "malicious; acrimonious",
+    "VideoID": "aD8bHWG0b1k"
+  },
   { "Word": "Cogent", "Meaning": "strong" },
   { "Word": "And..So..could", "Meaning": "agree with something" },
   { "Word": "And ...Neither ...could", "Meaning": "not agree with something" },
-  { "Word": "yield", "Meaning": "produce; submit" },
-  { "Word": "Commensurate", "Meaning": "equivalent" },
+  { "Word": "yield", "Meaning": "produce; submit", "VideoID": "W6TFVI3WspY" },
+  { "Word": "Commensurate", "Meaning": "equivalent", "VideoID": "YXKMDx-xDno" },
   { "Word": "abrupt", "Meaning": "sudden" },
-  { "Word": "Impending", "Meaning": "about to happen" },
+  {
+    "Word": "Impending",
+    "Meaning": "about to happen",
+    "VideoID": "G9_ga2SYgM0"
+  },
   { "Word": "Bolster", "Meaning": "support; help" },
-  { "Word": "Plea", "Meaning": "request; appeal" },
+  { "Word": "Plea", "Meaning": "request; appeal", "VideoID": "pMSRzWwOKo8" },
   {
     "Word": "Perpetuate",
-    "Meaning": "maintain or continue(especially bad one)"
+    "Meaning": "maintain or continue(especially bad one)",
+    "VideoID": "MGp1DuYOIZI"
   },
   { "Word": "inescapable", "Meaning": "inevitable" },
   { "Word": "Consolidate", "Meaning": "combine" },
   { "Word": "Ossified", "Meaning": "having become rigid" },
-  { "Word": "Intricate", "Meaning": "complex", "Synonym": "entangled" },
+  {
+    "Word": "Intricate",
+    "Meaning": "complex",
+    "Synonym": "entangled",
+    "VideoID": "OETkONHNRxY"
+  },
   { "Word": "hurly-burly", "Meaning": "busy" },
   { "Word": "Prize", "Meaning": "value" },
   { "Word": "Overhaul", "Meaning": "repair" },
   { "Word": "Curtail", "Meaning": "cut" },
   { "Word": "Warrant", "Meaning": "officially affirm or guarantee" },
-  { "Word": "Reconcile", "Meaning": "adjust; resolve" },
-  { "Word": "Plead", "Meaning": "claim; proclaim" },
+  {
+    "Word": "Reconcile",
+    "Meaning": "adjust; resolve",
+    "VideoID": "4tBeEUTRtSo"
+  },
+  { "Word": "Plead", "Meaning": "claim; proclaim", "VideoID": "pMSRzWwOKo8" },
   {
     "Word": "Disparage",
     "Meaning": "criticize",
     "Synonym": "belittle;denigrate"
   },
-  { "Word": "Preface", "Meaning": "prelude" },
+  { "Word": "Preface", "Meaning": "prelude", "VideoID": "oYhWz9RwugY" },
   { "Word": "Albeit", "Meaning": "though" },
-  { "Word": "Indignation", "Meaning": "anger", "Synonym": "resentment" },
+  {
+    "Word": "Indignation",
+    "Meaning": "anger",
+    "Synonym": "resentment",
+    "VideoID": "wc5mFdsSZUY"
+  },
   { "Word": "Definitive", "Meaning": "final" },
-  { "Word": "Repudiate", "Meaning": "reject" },
+  { "Word": "Repudiate", "Meaning": "reject", "VideoID": "QxRnaoGefOc" },
   { "Word": "Abandon", "Meaning": "give up completely" },
   { "Word": "Precedes", "Meaning": "former" },
-  { "Word": "Anticipate", "Meaning": "expect or predict", "rate": 2 },
+  {
+    "Word": "Anticipate",
+    "Meaning": "expect or predict",
+    "rate": 2,
+    "VideoID": "4io8-NnO-go"
+  },
   { "Word": "Incentive", "Meaning": "a thing that motivates or encourages" },
   {
     "Word": "Distort",
-    "Meaning": "twist out of shape; represent an idea in a untrue way"
+    "Meaning": "twist out of shape; represent an idea in a untrue way",
+    "VideoID": "foh8Nhu6vPY"
   },
-  { "Word": "Maverick", "Meaning": "unorthodox or independent minded person" },
+  {
+    "Word": "Maverick",
+    "Meaning": "unorthodox or independent minded person",
+    "VideoID": "2bc9bnZFRm0"
+  },
   {
     "Word": "Articulate",
     "Meaning": "having or showing the ability to speak fluently",
-    "Synonym": "eloquent"
+    "Synonym": "eloquent",
+    "VideoID": "JksofVk07oM"
   },
   { "Word": "Medieval", "Meaning": "middle age" },
-  { "Word": "Bequest", "Meaning": "inheritance" },
+  { "Word": "Bequest", "Meaning": "inheritance", "VideoID": "9kzu1_UNQn4" },
   { "Word": "Scarce", "Meaning": "in short supply" },
-  { "Word": "Customary", "Meaning": "traditional; usual" },
-  { "Word": "Spurious", "Meaning": "false or fake" },
+  {
+    "Word": "Customary",
+    "Meaning": "traditional; usual",
+    "VideoID": "XtwAcmhyMwQ"
+  },
+  { "Word": "Spurious", "Meaning": "false or fake", "VideoID": "lk5mWGk1qNE" },
   { "Word": "Blaze", "Meaning": "burn" },
-  { "Word": "Assail", "Meaning": "attack", "Synonym": "assault" },
-  { "Word": "Abate", "Meaning": "reduce or remove", "Synonym": "subside" },
+  {
+    "Word": "Assail",
+    "Meaning": "attack",
+    "Synonym": "assault",
+    "VideoID": "Uc129VgU200"
+  },
+  {
+    "Word": "Abate",
+    "Meaning": "reduce or remove",
+    "Synonym": "subside",
+    "VideoID": "iMULBqoGJMg"
+  },
   { "Word": "Berate", "Meaning": "rebuke", "Synonym": "reprimand" },
-  { "Word": "Torment", "Meaning": "physical or mental suffering" },
+  {
+    "Word": "Torment",
+    "Meaning": "physical or mental suffering",
+    "VideoID": "Z_gdRdtMBAA"
+  },
   { "Word": "Subside", "Meaning": "abate" },
   { "Word": "Entrench", "Meaning": "firmly establish" },
-  { "Word": "Perpetrate", "Meaning": "commit or do(a harmful)" },
+  {
+    "Word": "Perpetrate",
+    "Meaning": "commit or do(a harmful)",
+    "VideoID": "Vs6cIroxMMA"
+  },
   { "Word": "Sanction", "Meaning": "punishment" },
   { "Word": "Notion", "Meaning": "belief" },
-  { "Word": "Oblivious", "Meaning": "not aware of" },
+  { "Word": "Oblivious", "Meaning": "not aware of", "VideoID": "lyOm2hYNpwQ" },
   {
     "Word": "Perceptual",
     "Meaning": "people interpret and understand what they see"
   },
-  { "Word": "Plunder", "Meaning": "rob;loot", "Synonym": "pillage" },
-  { "Word": "Appetite", "Meaning": "hunger" },
-  { "Word": "Chivalrous", "Meaning": "brave" },
-  { "Word": "Quirky", "Meaning": "unusual", "Synonym": "eccentric;" },
-  { "Word": "Magnanimous", "Meaning": "generous" },
-  { "Word": "Turmoil", "Meaning": "state of great disturbance" },
+  {
+    "Word": "Plunder",
+    "Meaning": "rob;loot",
+    "Synonym": "pillage",
+    "VideoID": "lyOm2hYNpwQ"
+  },
+  { "Word": "Appetite", "Meaning": "hunger", "VideoID": "MsJ7HhfhhSc" },
+  { "Word": "Chivalrous", "Meaning": "brave", "VideoID": "26Xo3ywYKNc" },
+  {
+    "Word": "Quirky",
+    "Meaning": "unusual",
+    "Synonym": "eccentric;",
+    "VideoID": "3cngBL5FSLs"
+  },
+  { "Word": "Magnanimous", "Meaning": "generous", "VideoID": "Y30q-gQ8CS0" },
+  {
+    "Word": "Turmoil",
+    "Meaning": "state of great disturbance",
+    "VideoID": "F7rUvmvAEcg"
+  },
   {
     "Word": "Frantic",
-    "Meaning": "behaving in a wild and uncontrolled way(because you are frighten or worried)"
+    "Meaning": "behaving in a wild and uncontrolled way(because you are frighten or worried)",
+    "VideoID": "ES6aMBeaxzE"
   },
-  { "Word": "Utopian", "Meaning": "perfect(because the idea is unrealistic)" },
+  {
+    "Word": "Utopian",
+    "Meaning": "perfect(because the idea is unrealistic)",
+    "VideoID": "nWHgzyyNBsM"
+  },
   { "Word": "Deteriorate", "Meaning": "worsen", "Synonym": "decline" },
   { "Word": "Placid", "Meaning": "clam" },
-  { "Word": "Enervate", "Meaning": "weaken(energy,enthusiasm)" },
-  { "Word": "Laughable", "Meaning": "ridiculous" },
+  {
+    "Word": "Enervate",
+    "Meaning": "weaken(energy,enthusiasm)",
+    "VideoID": "qw2LGTKG7PQ"
+  },
+  { "Word": "Laughable", "Meaning": "ridiculous", "VideoID": "lEKLZuESsLI" },
   { "Word": "Irresolute", "Meaning": "doubtful;dubious;sceptical;weak" },
   {
     "Word": "Platitudinous",
     "Meaning": "overused;banal",
-    "Synonym": "hackneyed"
+    "Synonym": "hackneyed",
+    "VideoID": "SUuMoYzs7J0"
   },
-  { "Word": "Labyrinthine", "Meaning": "complex", "Synonym": "intricate" }
+  {
+    "Word": "Labyrinthine",
+    "Meaning": "complex",
+    "Synonym": "intricate",
+    "VideoID": "xILfGrIIkDs"
+  },
+  { "Word": "Plaintive", "Meaning": "sad", "VideoID": "-SKn1Var9Ew" },
+  { "Word": "Foil", "Meaning": "impede" },
+  { "Word": "Complaisance", "Meaning": "obedience" },
+  { "Word": "Craven", "Meaning": "cowardly" },
+  { "Word": "Gallantry", "Meaning": "bravery" },
+  { "Word": "Insubordinate", "Meaning": "disobedient" },
+  { "Word": "Heretofore", "Meaning": "before now" },
+  { "Word": "Jeopardize", "Meaning": "endanger", "Synonym": "imperil" },
+  { "Word": "Consensus", "Meaning": "a general agreement" },
+  { "Word": "Divergent", "Meaning": "different" },
+  {
+    "Word": "Acquittal",
+    "Meaning": "clearance",
+    "Synonym": "exonerate",
+    "VideoID": "NZaPxopc9Qo"
+  },
+  { "Word": "Verdict", "Meaning": "judgement" },
+  { "Word": "Trepidation", "Meaning": "fear", "Synonym": "apprehension" },
+  { "Word": "Surmount", "Meaning": "overcome(difficulty or obstacle)" },
+  {
+    "Word": "Exorcise",
+    "Meaning": "free from evil spirit",
+    "VideoID": "Y46I7Amtfbk"
+  },
+  { "Word": "Escalation", "Meaning": "rapid increase" },
+  { "Word": "Contingent", "Meaning": "accidental" },
+  {
+    "Word": "Prodigious",
+    "Meaning": "enormous",
+    "Sentence": "A prodigious achievement/effort/talent; a prodigious amount"
+  },
+  {
+    "Word": "Vigor",
+    "Meaning": "strength",
+    "Sentence": "She defended her beliefs with great vigor"
+  },
+  {
+    "Word": "Quiescent",
+    "Meaning": "inactive",
+    "Synonym": "fallow",
+    "Sentence": "A quiescent state; a quiescent disease; a quiescent virus"
+  },
+  {
+    "Word": "Thrive",
+    "Meaning": "develop well",
+    "Sentence": "Business is thriving;The region thrived under his rule"
+  },
+  {
+    "Word": "Pervade",
+    "Meaning": "spread through",
+    "Sentence": "Art and music pervade every aspect of their lives"
+  },
+  {
+    "Word": "Ailment",
+    "Meaning": "health problem",
+    "VideoID": "tjUUn4I4tSw",
+    "Sentence": "The doctor treated him for a variety of ailments"
+  },
+  {
+    "Word": "Copious",
+    "Meaning": "large amount(in negative)",
+    "VideoID": "_gKVMpEEeUw",
+    "Sentence": "The storm produced a copious amount  of rain"
+  },
+  {
+    "Word": "Tweak",
+    "Meaning": "small change",
+    "VideoID": "IoT7kX40sLY",
+    "Sentence": "Our software developers are tweaking the program  "
+  },
+  {
+    "Word": "sheer",
+    "Meaning": "absolute",
+    "VideoID": "R5sFbIBY6Gc",
+    "Sentence": "The sheer force of the wind knocked me to the ground"
+  },
+  {
+    "Word": "Wreak",
+    "Meaning": "cause something bad happen",
+    "VideoID": "F-NDuwBoVng",
+    "Sentence": "Gangs have been wreaking mayhem in the city"
+  },
+  {
+    "Word": "Stemming",
+    "Meaning": "produce;",
+    "VideoID": "lLxpAWCTogc",
+    "Sentence": "Many of the university problems stem from rapid expansion"
+  },
+  {
+    "Word": "Prey",
+    "Meaning": "hunt;catch",
+    "Synonym": "seize",
+    "VideoID": "gNwTIrfy8zI",
+    "Sentence": "The seals are easy prey for sharks"
+  },
+  {
+    "Word": "Exploitation",
+    "Meaning": "misuse",
+    "Sentence": "The exploitation of migrant workers"
+  },
+  {
+    "Word": "Cripple",
+    "Meaning": "injure;break",
+    "VideoID": "-Dugcv-Ytls",
+    "Sentence": "Developing countries are crippled by their debts"
+  },
+  {
+    "Word": "peer(n)(v)",
+    "Meaning": "Person as the same age",
+    "VideoID": "rSkCfuVFGyM",
+    "Sentence": "The towers peer over the roofs; Teenagers spending time with their peers"
+  },
+  {
+    "Word": "Esteem",
+    "Meaning": "respect",
+    "Sentence": "Many of these qualities are esteemed by managers"
+  },
+  {
+    "Word": "Inundate",
+    "Meaning": "overflow",
+    "Sentence": "We have been inundated with complaints from listeners"
+  },
+  {
+    "Word": "Insular",
+    "Meaning": "narrow minded",
+    "VideoID": "LT5IZ2iAUmQ",
+    "Sentence": "Insular attitudes toward foreigners"
+  },
+  {
+    "Word": "Plummet",
+    "Meaning": "fall",
+    "VideoID": "DJ9LbSWPIjc",
+    "Sentence": "A climber was killed when he plummeted 300 feet down an icy gully;Hardware sales plummeted"
+  },
+  {
+    "Word": "Lure",
+    "Meaning": "attraction",
+    "Sentence": "The film industry always has been a glamorous lure for young girls"
+  },
+  {
+    "Word": "Prior",
+    "Meaning": "previous time",
+    "Sentence": "She visited me on the day prior to her death;He has a prior engagement this evening"
+  },
+  {
+    "Word": "reckon",
+    "Meaning": "consider;calculate",
+    "VideoID": "wC2pbwa9zz4",
+    "Sentence": "The event was reckoned a failure;I don’t reckon his chances"
+  },
+  { "Word": "drench", "Meaning": "wet thoroughly", "VideoID": "o5TOE8EtNWI" },
+  {
+    "Word": "Expatriate",
+    "Meaning": "person reside outside their country for citizenship"
+  },
+  { "Word": "Depict", "Meaning": "potray" }
 ]
