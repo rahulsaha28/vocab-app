@@ -24,4 +24,8 @@ export const useVocabStore = create((set) => ({
       };
     });
   },
+  getVocabByIndex: (index) => {
+    const item = useVocabStore.getState().vocabStore[index];
+    return { ...item, Sentence: item["Sentence"].split(";") };
+  },
 }));

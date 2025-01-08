@@ -10,6 +10,7 @@ export const colors = {
   "color-3": "rgb(250, 93, 66)",
   "color-4": "rgb(109, 74, 228)",
   yellow: "rgb(247, 215, 47)",
+  "h-yellow": "rgb(255, 229, 0)",
 };
 
 export const size = {

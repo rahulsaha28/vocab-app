@@ -1,6 +1,14 @@
-import { AntDesign, Entypo } from "@expo/vector-icons";
+import { AntDesign, Entypo, FontAwesome5 } from "@expo/vector-icons";
+import { router } from "expo-router";
 import React, { useEffect, useState } from "react";
-import { Modal, Pressable, StyleSheet, Text, View } from "react-native";
+import {
+  Modal,
+  Pressable,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
+} from "react-native";
 import { colors, font, size } from "../config/GlobalSetting";
 import { useVocabStore } from "../store/useVocabStore";
 import Player from "./Player";
@@ -57,6 +65,20 @@ const VocabItem = ({ item, index }) => {
           <Pressable onPress={() => setModalVisible(true)}>
             <AntDesign name="play" size={32} color={colors["color-4"]} />
           </Pressable>
+        )}
+      </View>
+      <View>
+        {item["Sentence"] && (
+          <TouchableOpacity
+            onPress={() => {
+              router.push({
+                pathname: "detail",
+                params: { index },
+              });
+            }}
+          >
+            <FontAwesome5 name="list" size={24} color="green" />
+          </TouchableOpacity>
         )}
       </View>
       {item["VideoID"] && (

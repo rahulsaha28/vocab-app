@@ -12,17 +12,18 @@ import { colors, size } from "../../config/GlobalSetting.js";
 import { useVocabStore } from "../../store/useVocabStore.js";
 
 const { padding, height, width } = size;
+const max = 100;
 
 const Home = () => {
   const { getVocab, vocabStore, toggleShow, show } = useVocabStore(
     (state) => state
   );
   useEffect(() => {
-    getVocab(10);
+    getVocab(max);
   }, []);
 
   const loadMoreData = () => {
-    getVocab(10);
+    getVocab(max);
   };
 
   return (
