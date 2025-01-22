@@ -7,6 +7,8 @@ const RootLayout = () => {
     <Stack>
       <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
       <Stack.Screen name="detail" />
+      <Stack.Screen name="videoDetail" />
+      <Stack.Screen name="phrase"/>
     </Stack>
   );
 };

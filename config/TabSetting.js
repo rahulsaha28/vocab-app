@@ -1,4 +1,4 @@
-import { Entypo, Feather } from "@expo/vector-icons";
+import { Entypo, Feather, FontAwesome } from "@expo/vector-icons";
 import { size } from "./GlobalSetting";
 
 export const TabItem = [
@@ -6,6 +6,13 @@ export const TabItem = [
     label: "index",
     name: "Home",
     icon: (color) => <Feather name="home" size={size.iconSize} color={color} />,
+  },
+  {
+    label: "(list)",
+    name: "List",
+    icon: (color) => (
+      <FontAwesome name="list" size={size.iconSize} color={color} />
+    ),
   },
   {
     label: "about",

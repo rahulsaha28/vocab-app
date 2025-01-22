@@ -1,7 +1,7 @@
 import axios from "axios";
 import { create } from "zustand";
 import DataTemp from "../Data.json";
-import { GRE_VOCAB_API } from "../utils/API";
+import { C1_GRAMMER_API, GRE_VOCAB_API } from "../utils/API";
 import { convertXLSXtoJSON } from "../utils/Helper";
 
 export const useVocabStore = create((set) => ({
@@ -28,5 +28,30 @@ export const useVocabStore = create((set) => ({
   getVocabByIndex: (index) => {
     const item = useVocabStore.getState().vocabStore[index];
     return { ...item, Sentence: item["Sentence"].split(";") };
+  },
+}));
+
+export const useCGrammerVideoStore = create((set) => ({
+  videoStore: [],
+  videos: [],
+  getVideoStore: async (max) => {
+    const res = await axios.get(C1_GRAMMER_API, {
+      responseType: "arraybuffer",
+    });
+    const data = convertXLSXtoJSON(res);
+
+    set((state) => {
+      let preLen = state.videoStore.length;
+      let newArr = data.slice(preLen, preLen + max);
+      
+      return {
+        videoStore: [...state.videoStore, ...newArr],
+      };
+    });
+  },
+  parseVideosById: async (idString) => {
+    set({
+      videos: idString.split(";"),
+    });
   },
 }));
