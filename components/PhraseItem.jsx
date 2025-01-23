@@ -42,6 +42,6 @@ const styles = StyleSheet.create({
       textItem:{
         
         fontSize:font['largeFont'],
-        textTransform:'capitalize'
+        // textTransform:'capitalize'
       }
 })
