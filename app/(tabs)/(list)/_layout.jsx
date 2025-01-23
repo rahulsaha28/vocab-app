@@ -18,6 +18,7 @@ const Layout = () => {
     >
       <MaterialTopTabs.Screen name="index" options={{ title: "Home" }} />
       <MaterialTopTabs.Screen name="item" options={{ title: "Phrases" }} />
+      <MaterialTopTabs.Screen name="list" options={{ title:"Writing" }} />
     </MaterialTopTabs>
   );
 };

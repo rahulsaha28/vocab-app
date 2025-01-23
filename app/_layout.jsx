@@ -9,6 +9,7 @@ const RootLayout = () => {
       <Stack.Screen name="detail" />
       <Stack.Screen name="videoDetail" />
       <Stack.Screen name="phrase"/>
+      <Stack.Screen name="ielts" options={{ headerTitle:"IELTS WRITTEN WORD" }} />
     </Stack>
   );
 };

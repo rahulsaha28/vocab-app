@@ -20,7 +20,7 @@ export default WRItem
 
 const styles = StyleSheet.create({
     container:{
-        backgroundColor:'white',
+       // backgroundColor:'white',
         paddingVertical:20
 
     },
