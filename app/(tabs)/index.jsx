@@ -15,7 +15,7 @@ const { padding, height, width } = size;
 const max = 20;
 
 const Home = () => {
-  const { getVocab, vocabStore, toggleShow, show } = useVocabStore(
+  const { getVocab, vocabStore, toggleShow, show, searchLength } = useVocabStore(
     (state) => state
   );
   useEffect(() => {
@@ -49,7 +49,7 @@ const Home = () => {
         }
         onEndReached={loadMoreData}
         renderItem={({ item, index }) => {
-          return <VocabItem index={index} item={item} />;
+          return <VocabItem index={index} item={item} searchLength={searchLength} />;
         }}
       />
     </View>

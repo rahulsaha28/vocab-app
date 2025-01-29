@@ -7,6 +7,7 @@ import { convertXLSXtoJSON } from "../utils/Helper";
 export const useVocabStore = create((set) => ({
   vocabStore: [],
   show: true,
+  searchLength:0,
   toggleShow: () => {
     set((state) => ({ show: !state.show }));
   },
@@ -19,11 +20,26 @@ export const useVocabStore = create((set) => ({
 
     set((state) => {
       let preLen = state.vocabStore.length;
-      let newArr = Data.slice(preLen, preLen + max);
+      let newArr = Data.slice(state.searchLength+preLen, state.searchLength+ preLen + max);
       return {
         vocabStore: [...state.vocabStore, ...newArr],
       };
     });
+  },
+  searchVocab:async(value, max)=>{
+    const res = await axios.get(GRE_VOCAB_API, {
+      responseType: "arraybuffer",
+    })
+    const Data = convertXLSXtoJSON(res);
+    set(state=>{
+      //let preLen = state.vocabStore.length;
+      let newArr = Data.slice(value-1, value+max);
+      return {
+        vocabStore:[...newArr],
+        searchLength:value-1
+      }
+    })
+
   },
   getVocabByIndex: (index) => {
     const item = useVocabStore.getState().vocabStore[index];

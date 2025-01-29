@@ -1,15 +1,19 @@
 import React, { useState } from "react";
 import { KeyboardAvoidingView, StyleSheet, TextInput } from "react-native";
 import { font, size } from "../config/GlobalSetting";
+import { useVocabStore } from "../store/useVocabStore.js";
 
 const { padding, width } = size;
 const { mediumFont } = font;
 const CustomTextInput = () => {
+  const { searchVocab } = useVocabStore(state=>state);
   const [searchInput, setSearchInput] = useState("");
   const handleSubmit = () => {
     const value = parseInt(searchInput);
     if (value) {
       console.log(value);
+      searchVocab(value,20);
+      setSearchInput("");
       return;
     }
     console.log("Input", searchInput);

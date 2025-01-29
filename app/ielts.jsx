@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { FlatList, StyleSheet, Text, View } from 'react-native'
 import React, { useEffect } from 'react'
 import { useLocalSearchParams } from 'expo-router'
 
@@ -16,15 +16,31 @@ const ielts = () => {
   return (
     <View>
       <View style={[styles.titleContainer]}>
-      <Text style={[styles.title]}>{IELTSItem['replace']}</Text>
-      </View>
-      <View>
         {
-            IELTSItem['sentence'] && IELTSItem['sentence'].split(';').map((item,index)=>(
+          IELTSItem['replace'] && <Text style={[styles.title]}>{IELTSItem['replace']}</Text>
+        }
+      
+      </View>
+      <View style={[{ padding:padding }]}>
+        {
+            // IELTSItem['sentence'] && IELTSItem['sentence'].split(';').map((item,index)=>(
+            //     <View key={index} style={[styles.sentenceContainer]}>
+            //         <Text style={[styles.text]}>{item}</Text>
+            //     </View>
+            // ))
+            IELTSItem['sentence'] && <FlatList 
+              keyExtractor={(item, index)=>index+item}
+              data={IELTSItem['sentence'].split(';')}
+              contentContainerStyle={{ paddingBottom:padding*10 }}
+              showsVerticalScrollIndicator={false}
+
+              renderItem={({item, index})=>(
                 <View key={index} style={[styles.sentenceContainer]}>
+                  
                     <Text style={[styles.text]}>{item}</Text>
                 </View>
-            ))
+              )}
+            />
         }
       </View>
      

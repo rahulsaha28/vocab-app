@@ -17,7 +17,7 @@ import Rating from "./Rating";
 const { padding, height, width } = size;
 const { mediumFont, largeFont } = font;
 
-const VocabItem = ({ item, index }) => {
+const VocabItem = ({ item, index, searchLength }) => {
   const [isItemHide, setIsItemHide] = useState(false);
   const [modalVisible, setModalVisible] = useState(false);
   const { show } = useVocabStore((state) => state);
@@ -40,7 +40,7 @@ const VocabItem = ({ item, index }) => {
         {item["rate"] && <Rating rating={parseInt(item["rate"])} />}
         <View style={[styles.indexStyle]}>
           <Text style={{ color: "white", fontSize: 16, fontWeight: "600" }}>
-            {index + 1}
+            {searchLength +index + 1}
           </Text>
         </View>
       </View>
