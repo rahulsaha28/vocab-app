@@ -8,8 +8,15 @@ const RootLayout = () => {
       <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
       <Stack.Screen name="detail" />
       <Stack.Screen name="videoDetail" />
-      <Stack.Screen name="phrase"/>
-      <Stack.Screen name="ielts" options={{ headerTitle:"IELTS WRITTEN WORD" }} />
+      <Stack.Screen name="phrase" />
+      <Stack.Screen
+        name="ielts"
+        options={{ headerTitle: "IELTS WRITTEN WORD" }}
+      />
+      <Stack.Screen
+        name="ieltsWriting"
+        options={{ headerTitle: "IELTS WRITING STRUCTURE" }}
+      />
     </Stack>
   );
 };
