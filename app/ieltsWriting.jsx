@@ -1,17 +1,19 @@
 import { useLocalSearchParams } from "expo-router";
 import React, { useEffect } from "react";
 import { FlatList, SafeAreaView, StyleSheet, Text, View } from "react-native";
+import { colors, size } from "../config/GlobalSetting";
 import { useStructureVocab } from "../store/useWritingStructureVocab";
 
+const { padding } = size;
 const ieltsWriting = () => {
-  const { itemID } = useLocalSearchParams();
+  const { itemID, text } = useLocalSearchParams();
   const { str, setStr } = useStructureVocab((state) => state);
   useEffect(() => {
     setStr(itemID);
   }, [itemID]);
   return (
     <SafeAreaView>
-      <Text>ieltsWriting {itemID}</Text>
+      <Text>ieltsWriting</Text>
       {str["Total"] && (
         <FlatList
           data={str["Total"]}
@@ -30,6 +32,10 @@ const ieltsWriting = () => {
                   {item["Structure"]}
                 </Text>
               )}
+              {text && <Text style={[styles.subText]}>{text}</Text>}
+              {item["Use"] && (
+                <Text style={[styles.subText]}>{item["Use"]}</Text>
+              )}
               {item["Example"] && (
                 <View>
                   <FlatList
@@ -42,10 +48,12 @@ const ieltsWriting = () => {
                             {item["Sentence"]}
                           </Text>
                         )}
-                        <Text style={[styles.border]}></Text>
+                        {item["Meaning"] && (
+                          <Text style={[styles.border]}></Text>
+                        )}
                         {item["Meaning"] && (
                           <Text style={[styles.subTitle]}>
-                            {item["Meaning"]}
+                            Meaning: {item["Meaning"]}
                           </Text>
                         )}
                       </View>
@@ -73,10 +81,17 @@ const styles = StyleSheet.create({
     marginVertical: 8,
   },
   title: {
-    fontSize: 32,
+    fontSize: 25,
   },
   subTitle: {
     fontSize: 20,
+  },
+  subText: {
+    backgroundColor: colors["h-yellow"],
+    padding,
+    fontSize: padding * 2,
+    marginHorizontal: padding,
+    borderRadius: padding,
   },
   border: {
     borderTopWidth: 1,

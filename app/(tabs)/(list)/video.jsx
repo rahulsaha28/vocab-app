@@ -29,6 +29,7 @@ const Video = () => {
                 pathname: "ieltsWriting",
                 params: {
                   itemID: index,
+                  text: item["Meaning"] || null,
                 },
               });
             }}
