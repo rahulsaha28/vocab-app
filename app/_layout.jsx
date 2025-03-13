@@ -17,6 +17,10 @@ const RootLayout = () => {
         name="ieltsWriting"
         options={{ headerTitle: "IELTS WRITING STRUCTURE" }}
       />
+      <Stack.Screen
+        name="topicsDetail"
+        options={{ headerTitle: "TOPICS DETAIL" }}
+      />
     </Stack>
   );
 };

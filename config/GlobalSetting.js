@@ -11,6 +11,8 @@ export const colors = {
   "color-4": "rgb(109, 74, 228)",
   yellow: "rgb(247, 215, 47)",
   "h-yellow": "rgb(255, 229, 0)",
+  "bg-color-text": "#D1D3D4",
+  "color-text": "#201C1D",
 };
 
 export const size = {

@@ -40,7 +40,7 @@ const VocabItem = ({ item, index, searchLength }) => {
         {item["rate"] && <Rating rating={parseInt(item["rate"])} />}
         <View style={[styles.indexStyle]}>
           <Text style={{ color: "white", fontSize: 16, fontWeight: "600" }}>
-            {searchLength +index + 1}
+            {searchLength + index + 1}
           </Text>
         </View>
       </View>
@@ -171,6 +171,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "flex-end",
     padding,
+    flex: 4,
   },
   modalContainerBack: {
     flex: 1,

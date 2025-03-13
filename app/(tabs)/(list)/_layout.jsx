@@ -11,14 +11,14 @@ const Layout = () => {
     <MaterialTopTabs
       screenOptions={{
         tabBarLabelStyle: {
-          fontSize: 20,
+          fontSize: 16,
           textTransform: "capitalize",
         },
       }}
     >
       <MaterialTopTabs.Screen name="index" options={{ title: "Home" }} />
       <MaterialTopTabs.Screen name="item" options={{ title: "Phrases" }} />
-      <MaterialTopTabs.Screen name="list" options={{ title:"Writing" }} />
+      <MaterialTopTabs.Screen name="list" options={{ title: "Writing" }} />
     </MaterialTopTabs>
   );
 };
